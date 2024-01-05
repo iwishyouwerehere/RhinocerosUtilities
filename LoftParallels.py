@@ -1,3 +1,4 @@
+#https://discourse.mcneel.com/t/find-the-two-closest-parallel-lines-and-create-a-loft/172699
 import Rhino
 import scriptcontext as sc
 import rhinoscriptsyntax as rs
