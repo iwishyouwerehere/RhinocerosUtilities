@@ -66,9 +66,9 @@ velocities1 = [movement_vector for _ in cloud1_pts]
 velocities2 = [rg.Vector3d(0, 0, 0) for _ in cloud2_pts]
 
 # Simulation parameters
-time_step = 0.05  # Adjust as needed
-collision_threshold = 0.1  # Adjust based on your scale
-total_simulation_time = 10  # Adjust as needed
+time_step = 0.05  
+collision_threshold = 0.1  
+total_simulation_time = 10  
 current_time = 0
 
 while current_time < total_simulation_time:
